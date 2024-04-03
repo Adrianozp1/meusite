@@ -1,58 +1,43 @@
-/* Estilos para o esboço dos elementos */
-/* Estilo geral */
-body {
-    padding-top: 20px;
-    background-color: #f8f9fa; /* Cor de fundo */
-}
 
-.container {
-    background-color: #fff; /* Fundo branco */
-    padding: 20px;
-    border-radius: 10px; /* Borda arredondada */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-}
-
-h1, h2 {
-    color: #343a40; /* Cor do título */
-}
-
-/* Esboço dos formulários */
-form {
-    outline: none; /* Remove o esboço */
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px; /* Borda arredondada */
-}
-
-/* Esboço das tabelas */
-.table {
-    border: none; /* Remove a borda */
-    border-radius: 10px; /* Borda arredondada */
-}
-
-/* Esboço dos botões */
-.btn {
-    outline: none; /* Remove o esboço */
-    border-radius: 5px; /* Borda arredondada */
-}
-
-/* Estilo dos botões */
 .btn-primary {
-    background-color: #007bff; /* Azul */
-    border-color: #007bff; /* Borda azul */
-}
+    background-color: #3498db; 
+    border-color: #3498db; 
 
 .btn-primary:hover {
-    background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
-    border-color: #0056b3; /* Borda azul mais escura ao passar o mouse */
+    background-color: #2980b9; 
+    border-color: #2980b9;
 }
 
 .btn-danger {
-    background-color: #dc3545; /* Vermelho */
-    border-color: #dc3545; /* Borda vermelha */
-}
+    background-color: #e74c3c; 
+    border-color: #e74c3c; 
 
 .btn-danger:hover {
-    background-color: #c82333; /* Vermelho mais escuro ao passar o mouse */
-    border-color: #bd2130; /* Borda vermelha mais escura ao passar o mouse */
+    background-color: #c0392b; 
+    border-color: #c0392b; 
+
+/* Texto */
+body {
+    color: #333; /* Cor de texto padrÃ£o */
+}
+
+/* Fundo */
+body {
+    background-color: #a3a0a079; 
+}
+
+/* Fundo das caixas de entrada 
+.form-control {
+    background-color: #f2f2f2b6; 
+}
+
+#logo {
+    position: fixed;
+    top: 10px;
+    right: 1%; 
+    width: 150px;
+    height: auto; 
+    z-index: 1000;
+    opacity: 0.8; 
+}
 }
